@@ -1,0 +1,71 @@
+.submitted-exs, .submitted-exs h1 {
+    text-align: center;
+}
+
+.job-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.comp-pos ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: right;
+    margin-right: 5rem;
+}
+
+.time-frame ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 5rem;
+}
+
+.end {
+    margin-left: 0.3rem;
+}
+
+.desc-cont {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.desc-cont label {
+    display: block;
+}
+
+.desc-cont textarea {
+    width: 80%;
+    height: 70%;
+}
+
+.ex-cont {
+    grid-column: 1 / span 2;
+}
+
+.desc-sub-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-sub {
+    width: 80%;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .comp-pos ul {
+        margin-right: 1rem;
+    }
+
+    .time-frame ul {
+        margin-left: 1rem;
+    }
+    .end {
+        margin-left: 1.15rem;
+    }
+
+    .desc-cont textarea {
+        font-size: 0.5rem;
+    }
+}

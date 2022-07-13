@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(232, 231, 231);
+    margin: 1rem 1rem;
+    font-family: Arial;
+}
+
+.page-container {
+    position: relative;
+    margin: 0 5rem;
+    padding: 1rem;
+    background-color: white;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .page-container {
+        margin: 0 0;
+    }
+}

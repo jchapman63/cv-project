@@ -1,0 +1,66 @@
+/* edit secion */
+
+.education-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+label {
+    margin-bottom: 1rem;
+}
+input {
+    margin-bottom: 1rem;
+}
+
+.education-first-list {
+    list-style-type: none;
+    text-align: right;
+    padding-left: 0;
+}
+
+.education-first-list li {
+    margin-right: 5rem;
+}
+
+.dates-list {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+.dates-list li {
+    margin-left: 5rem;
+}
+
+#end {
+    margin-left: 0.25rem;
+}
+
+/* submitted section  */
+.header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.sub-wrapper {
+    text-align: center;
+}
+
+
+@media only screen and (max-device-width: 600px) {
+
+    .education-first-list li {
+        margin-right: 1rem;
+    }
+
+    .dates-list li {
+        margin-left: 1rem;
+    }
+
+    .header {
+        margin-bottom: 0.25rem;
+    }
+
+    #end {
+        margin-left: 1.15rem;
+    }
+}

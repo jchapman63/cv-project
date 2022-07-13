@@ -1,0 +1,113 @@
+/* edit section */
+.intro-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+.intro-ul {
+    margin-top: 0;
+    text-align: right;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.intro-name-edit ul {
+    text-align: left;
+    padding-left: 0;
+}
+
+#title {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+}
+
+.intro-contact-edit {
+    text-align: right;
+}
+
+button {
+    width: 5rem;
+    text-align: center;
+}
+
+.edit-button {
+    margin-right: 1rem;
+}
+
+/* submitted section */
+.intro-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.submitted-header {
+    margin-top: 0.5rem;
+}
+
+button {
+    position: relative;
+
+}
+
+.intro-contact-submitted {
+    text-align: right;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .intro-name-edit {
+        display: inline;
+        width: 100%;
+    }
+    .intro-contact-edit {
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        position: absolute;
+        display: inline;
+        right: 5%;
+    }
+
+    li {
+        margin-bottom: 0rem;
+    }
+
+    label {
+        font-size: 0.5rem;
+        margin-right: 0;
+    }
+
+   #title {
+        margin-left: 1.35rem;
+    }
+
+    input {
+        width: 4rem;
+        height: 0.75rem;
+        margin-left: 1rem;
+        font-size: 0.5rem;
+    }
+
+    button {
+        width: 3rem;
+        font-size: 0.5rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 0.75rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
+}
+
